@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Raekwon Gerold
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+Rood? (kies uit zwart, rood óf blauw)
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Twijfel er nog over (kies uit responsive óf surface plane)
  
 </details>
 
@@ -37,6 +37,8 @@ hier je focus (kies uit responsive óf surface plane)
 
 ### Je opdracht:
 link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+ 
+ Kan niet echt een site bedenken, die van vorig jaar was nice, maar had te weinig tijd nadat ik mijn eerste "lock" had gefixt.
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
