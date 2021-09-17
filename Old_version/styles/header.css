@@ -1,0 +1,1509 @@
+/*! CSS Used from: https://playvalorant.com/styles.2567dced216578d9cb05.css */
+.menu-module--container--2c7PG {
+    position: relative;
+    height: 8rem;
+}
+
+[dir] .menu-module--container--2c7PG {
+    margin-top: 0 !important;
+}
+
+[dir] a {
+    background-color: transparent;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+[dir] ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    -webkit-focus-ring-color: transparent;
+    outline: none;
+}
+
+/*! CSS Used from: Embedded */
+#riotbar-bar svg {
+    pointer-events: none;
+}
+
+.riotbar-base-element,
+.riotbar-base-element div,
+.riotbar-base-element span,
+.riotbar-base-element a,
+.riotbar-base-element ul,
+.riotbar-base-element li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: "FF Mark W05";
+    vertical-align: baseline;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.riotbar-base-element ul {
+    list-style: none;
+}
+
+.riotbar-base-element,
+.riotbar-base-element * {
+    box-sizing: border-box;
+    position: static;
+}
+
+.riotbar-base-element a,
+.riotbar-base-element a:link,
+.riotbar-base-element a:visited {
+    text-decoration: none;
+    color: #F9F9F9;
+}
+
+#riotbar-bar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+
+#riotbar-bar-wrapper.riotbar-sticky {
+    position: fixed;
+    z-index: 10000;
+}
+
+#riotbar-bar {
+    background-color: #111111;
+    border-bottom: 2px solid #333333;
+    font-family: "FF Mark W05";
+    font-size: 14px !important;
+    font-weight: bold;
+    height: 80px;
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    z-index: 3000000;
+}
+
+#riotbar-bar .sub-menu-header-icon {
+    color: #F9F9F9;
+    display: inline-block;
+}
+
+#riotbar-bar .sub-menu-header-icon svg {
+    display: none;
+    float: left;
+}
+
+#riotbar-bar .riotbar-navbar-separator {
+    border-left: 2px solid #7E7E7E;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    margin-top: 24px;
+    vertical-align: top;
+    opacity: 0.4;
+}
+
+#riotbar-bar .riotbar-bar-content {
+    text-align: center;
+    height: 80px;
+    flex: 1;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-bar .riotbar-bar-content {
+        padding-left: 0;
+    }
+}
+
+#riotbar-bar .riotbar-left-content {
+    opacity: 1;
+    transition: opacity 0.5s cubic-bezier(0.06, 0.81, 0, 0.98) 0s;
+}
+
+#riotbar-bar .riotbar-left-content {
+    height: 80px;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-bar .riotbar-left-content {
+        padding-right: 0;
+    }
+}
+
+#riotbar-bar .riotbar-right-content {
+    bottom: 0;
+    top: 0;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-bar.riotbar-mobile-responsive .riotbar-right-content .riotbar-navmenu-dropdown {
+        transform: translateX(100%);
+        width: 315px;
+        overflow-y: auto;
+    }
+}
+
+#riotbar-bar .riotbar-right-content {
+    padding-right: 16px;
+    right: 0px;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-bar .riotbar-right-content {
+        padding-right: 0;
+    }
+
+    #riotbar-bar .riotbar-right-content #riotbar-account {
+        display: none;
+    }
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-right-content-icons {
+    margin: 0px 12px;
+    float: left;
+    white-space: nowrap;
+    color: #F9F9F9;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-right-content-icons>div {
+    float: left;
+    padding: 0 8px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-right-content-icons .lang-switch-trigger {
+    cursor: pointer;
+    display: block;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-right-content-icons .riotbar-navmenu-right-icon {
+    float: left;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-right-content-icons .riotbar-navmenu-right-icon .lang-switch-trigger svg {
+    margin-top: 32px;
+    pointer-events: none;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown {
+    background: #212121;
+    border-top: 2px solid #262626;
+    box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    opacity: 0;
+    overflow: visible;
+    padding-bottom: 18px;
+    position: fixed;
+    height: 100%;
+    text-align: left;
+    transform: translateY(-5%);
+    top: 0px;
+    right: 0;
+    visibility: hidden;
+    width: 460px;
+    z-index: 10;
+    transition: transform 300ms, opacity 300ms;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown a {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header {
+    height: 78px;
+    background-color: #111111;
+    border-bottom: 2px solid #262626;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header a {
+    cursor: pointer;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header .sub-menu-header-text {
+    font-size: 18px;
+    position: absolute;
+    top: 22px;
+    left: 40px;
+    color: #F9F9F9;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header .sub-menu-back {
+    position: absolute;
+    top: 20px;
+    height: 30px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header .sub-menu-back svg {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header .sub-menu-close {
+    position: absolute;
+    top: 21px;
+    right: 31px;
+    width: 32px;
+    height: 32px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header .sub-menu-close svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .side-menu-icon {
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    width: 10px;
+    height: 10px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .side-menu-icon svg {
+    display: block;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-touchpoints,
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-links {
+    transition: opacity 0.2s linear;
+}
+
+#riotbar-bar .riotbar-right-content a.riotbar-navmenu-link {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    transition: color 1s cubic-bezier(0.06, 0.81, 0, 0.98);
+    border-bottom: 1px solid #111111;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+}
+
+#riotbar-bar .riotbar-right-content a.riotbar-navmenu-link:last-child {
+    margin-bottom: 0;
+}
+
+#riotbar-bar .riotbar-right-content.riotbar-show-links .riotbar-navmenu-links {
+    display: block;
+}
+
+#riotbar-bar #riotbar-mobile-nav {
+    display: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#riotbar-bar #riotbar-mobile-nav a {
+    margin-top: 23px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-bar #riotbar-mobile-nav {
+        display: inline !important;
+    }
+}
+
+#riotbar-navbar {
+    display: table;
+    font-size: 0;
+    height: 80px;
+    margin-right: 0;
+    max-width: 100%;
+    opacity: 1;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-navbar {
+        display: inline-block;
+    }
+}
+
+#riotbar-navbar.fade-in {
+    opacity: 0;
+}
+
+#riotbar-navbar.fade-in.ready {
+    opacity: 1;
+    transition: opacity 0.3s cubic-bezier(0.06, 0.81, 0, 0.98) 0s;
+}
+
+#riotbar-navbar .riotbar-explore-label {
+    display: none;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container {
+    display: inline-block;
+    position: relative;
+    height: 80px;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container .riotbar-navbar-subnav-menu {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    background-color: #111111;
+    text-align: left;
+    font-size: 1rem;
+    min-width: 200px;
+    opacity: 0;
+    transition: opacity 0.5s cubic-bezier(0.06, 0.81, 0, 0.98) 0s, visibility 0s;
+    display: none;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container .riotbar-navbar-subnav-menu li {
+    text-align: left;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container .riotbar-navbar-subnav-menu .riotbar-navbar-sub-link {
+    padding: 12px 32px;
+    width: 100%;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container .riotbar-navbar-subnav-menu li {
+    color: #1d1d1d;
+    border-bottom: solid 2px #111111;
+    list-style-type: none;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container .riotbar-navbar-subnav-menu li:hover {
+    cursor: pointer;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container svg.arrow-down {
+    display: inline-block;
+    margin-bottom: 1px;
+    margin-left: 5px;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container svg.hover {
+    display: none;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container:hover svg.non-hover {
+    display: none;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container:hover svg.hover {
+    display: inline-block;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container.nav-dropdown-overflow.hide {
+    display: none;
+}
+
+#riotbar-navbar a {
+    border-bottom: 2px solid transparent;
+    color: #F9F9F9;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 76px;
+    margin: 0 0.85em;
+    overflow: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 2px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 1s cubic-bezier(0.06, 0.81, 0, 0.98), border-color 0.5s cubic-bezier(0.06, 0.81, 0, 0.98);
+}
+
+@media (max-width: 1115px) {
+    #riotbar-navbar a {
+        margin: 0 0.6375em;
+    }
+}
+
+@media (max-width: 1024px) {
+    #riotbar-navbar {
+        position: static;
+    }
+
+    #riotbar-navbar .riotbar-navbar-link,
+    #riotbar-navbar .riotbar-navbar-navitem-container {
+        display: none;
+    }
+
+    #riotbar-navbar .riotbar-explore-label {
+        display: block;
+        line-height: 80px;
+        height: 80px;
+    }
+
+    #riotbar-navbar .riotbar-explore-label svg {
+        display: block;
+        margin: 24px auto 0;
+        max-height: 50px;
+    }
+}
+
+#riotbar-header{
+    height: 5em;
+}
+
+#riotbar-navbar .riotbar-navbar-sub-link {
+    border: none;
+    line-height: 1.5em;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+#riotbar-navmenu {
+    color: #F9F9F9;
+    font-size: 14px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+#riotbar-navmenu .riotbar-logo {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    margin-left: 32px;
+    width: 75px;
+}
+
+#riotbar-navmenu .riotbar-logo .riot-bar-fist-logo {
+    width: 160px;
+    height: 160px;
+    background: url(https://lolstatic-a.akamaihd.net/riotbar/live/1.1.5/images/navigation/fistsprite.png) 0 -2400px no-repeat;
+    transition: background-position 0.25s steps(15, end);
+    transform: scale(0.33);
+    position: absolute;
+    top: -55px;
+    left: -55px;
+}
+
+#riotbar-navmenu .riotbar-logo .riot-bar-fist-logo:hover {
+    background-position: 0 0;
+}
+
+#riotbar-navmenu .riotbar-logo svg {
+    position: absolute;
+    top: 3px;
+    left: 51px;
+}
+
+#riotbar-navmenu .riotbar-logo svg.hover {
+    display: none;
+}
+
+#riotbar-navmenu .riotbar-logo svg.drop {
+    margin-top: 22px !important;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+#riotbar-navmenu .riotbar-logo:hover svg.hover {
+    display: inline-block;
+}
+
+#riotbar-navmenu .riotbar-logo:hover svg.non-hover {
+    display: none;
+}
+
+#riotbar-navmenu .riotbar-navbar-separator.main-logo-separator {
+    margin-left: 0;
+    margin-right: 32px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-navmenu .riotbar-navbar-separator.main-logo-separator {
+        display: none;
+    }
+}
+
+#riotbar-navmenu .second-logo {
+    display: inline-block;
+    height: 50px;
+}
+
+#riotbar-navmenu .second-logo a {
+    min-width: 38px;
+    display: block;
+}
+
+#riotbar-navmenu .second-logo svg {
+    margin-top: 9px;
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    .riotbar-mobile-responsive #riotbar-navmenu {
+        content: "sidebar";
+    }
+
+    .riotbar-mobile-responsive #riotbar-navmenu .second-logo {
+        display: none;
+    }
+}
+
+#riotbar-bar {
+    border-bottom: 2px solid rgba(51, 51, 51, 0.25);
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#riotbar-bar .riotbar-navmenu-category {
+    overflow: visible;
+    position: relative;
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#riotbar-bar .riotbar-navmenu-category:before,
+#riotbar-bar .riotbar-navmenu-category:after {
+    content: " ";
+    display: table;
+}
+
+#riotbar-bar .riotbar-navmenu-category:after {
+    clear: both;
+}
+
+#riotbar-account {
+    float: left;
+    white-space: nowrap;
+}
+
+#riotbar-account:after {
+    clear: both;
+}
+
+#riotbar-account .riotbar-account-anonymous-link-wrapper {
+    display: inline-block;
+    height: 80px;
+}
+
+#riotbar-account .riotbar-anonymous-link {
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px 15px;
+    transition: color 300ms cubic-bezier(0.06, 0.81, 0, 0.98);
+    vertical-align: middle;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#riotbar-account .riotbar-anonymous-link.theme-button {
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 16px;
+    height: 41px;
+    padding: 12px 0;
+    position: relative;
+    min-width: 129px;
+    max-width: 220px;
+    z-index: 0;
+    text-overflow: ellipsis;
+}
+
+#riotbar-account .riotbar-anonymous-link.theme-button:hover:before {
+    opacity: 1;
+}
+
+@media (max-width: 640px) {
+    .riotbar-mobile-responsive #riotbar-account .riotbar-anonymous-link {
+        display: none;
+    }
+
+    .riotbar-mobile-responsive #riotbar-account .riotbar-anonymous-link.riotbar-account-action {
+        display: inline-block;
+    }
+}
+
+.localization-management-list {
+    font-family: "FF Mark W05";
+    display: none;
+    width: 240px;
+    background-color: #F9F9F9;
+    border-radius: 4px;
+}
+
+.localization-management-list ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 12px;
+    max-height: 360px;
+    overflow-x: auto;
+}
+
+.localization-management-list ul li {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.localization-management-list ul li .lang-name {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 20px;
+}
+
+.localization-management-list ul li a,
+.localization-management-list ul li a:visited,
+.localization-management-list ul li a:link {
+    transition: color 0.3s linear;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #999999;
+    width: 100%;
+    padding: 0 0 0 20px;
+}
+
+.localization-management-list ul li a svg,
+.localization-management-list ul li a:visited svg,
+.localization-management-list ul li a:link svg {
+    position: absolute;
+    top: 35%;
+    right: 20px;
+    width: 14px;
+    height: 12px;
+    fill: #F9F9F9;
+}
+
+.localization-management-list ul li:hover a {
+    color: #111111;
+}
+
+.localization-management-list ul li.active {
+    cursor: default;
+}
+
+.localization-management-list ul li.active a {
+    color: #c4202b;
+}
+
+.riotbar-locale .icon-lang-switch {
+    position: relative;
+    font-family: "FF Mark W05";
+}
+
+.riotbar-locale .icon-lang-switch .lang-switch-dropdown {
+    position: absolute;
+    top: 90px;
+    left: -115px;
+    padding: 8px 0 8px 8px;
+}
+
+@media (max-width: 1024px) {
+    .riotbar-locale .icon-lang-switch .lang-switch-dropdown {
+        left: -155px;
+    }
+}
+
+.riotbar-locale .icon-lang-switch .lang-switch-dropdown .lang-switch-caret {
+    height: 0;
+    position: absolute;
+    width: 0;
+    left: 113px;
+    top: -20px;
+    border: 10px solid transparent;
+    border-bottom-color: #F9F9F9;
+}
+
+@media (max-width: 1024px) {
+    .riotbar-locale .icon-lang-switch .lang-switch-dropdown .lang-switch-caret {
+        left: 153px;
+    }
+}
+
+/*! CSS Used from: Embedded */
+#riotbar-bar svg {
+    pointer-events: none;
+}
+
+.riotbar-base-element,
+.riotbar-base-element div,
+.riotbar-base-element span,
+.riotbar-base-element a,
+.riotbar-base-element ul,
+.riotbar-base-element li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: "FF Mark W05";
+    vertical-align: baseline;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.riotbar-base-element ul {
+    list-style: none;
+}
+
+.riotbar-base-element,
+.riotbar-base-element * {
+    box-sizing: border-box;
+    position: static;
+}
+
+.riotbar-base-element a,
+.riotbar-base-element a:link,
+.riotbar-base-element a:visited {
+    text-decoration: none;
+    color: #F9F9F9;
+}
+
+#riotbar-bar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+
+#riotbar-bar-wrapper.riotbar-sticky {
+    position: fixed;
+    z-index: 10000;
+}
+
+#riotbar-bar {
+    background-color: #111111;
+    border-bottom: 2px solid #333333;
+    font-family: "FF Mark W05";
+    font-size: 14px !important;
+    font-weight: bold;
+    height: 80px;
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    z-index: 3000000;
+}
+
+#riotbar-bar .sub-menu-header-icon {
+    color: #F9F9F9;
+    display: inline-block;
+}
+
+#riotbar-bar .sub-menu-header-icon svg {
+    display: none;
+    float: left;
+}
+
+#riotbar-bar .riotbar-navbar-separator {
+    border-left: 2px solid #7E7E7E;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    margin-top: 24px;
+    vertical-align: top;
+    opacity: 0.4;
+}
+
+#riotbar-bar .riotbar-bar-content {
+    text-align: center;
+    height: 80px;
+    flex: 1;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-bar .riotbar-bar-content {
+        padding-left: 0;
+    }
+}
+
+#riotbar-bar .riotbar-left-content {
+    opacity: 1;
+    transition: opacity 0.5s cubic-bezier(0.06, 0.81, 0, 0.98) 0s;
+}
+
+#riotbar-bar .riotbar-left-content {
+    height: 80px;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-bar .riotbar-left-content {
+        padding-right: 0;
+    }
+}
+
+#riotbar-bar .riotbar-right-content {
+    bottom: 0;
+    top: 0;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-bar.riotbar-mobile-responsive .riotbar-right-content .riotbar-navmenu-dropdown {
+        transform: translateX(100%);
+        width: 315px;
+        overflow-y: auto;
+    }
+}
+
+#riotbar-bar .riotbar-right-content {
+    padding-right: 16px;
+    right: 0px;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-bar .riotbar-right-content {
+        padding-right: 0;
+    }
+
+    #riotbar-bar .riotbar-right-content #riotbar-account {
+        display: none;
+    }
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-right-content-icons {
+    margin: 0px 12px;
+    float: left;
+    white-space: nowrap;
+    color: #F9F9F9;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-right-content-icons>div {
+    float: left;
+    padding: 0 8px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-right-content-icons .lang-switch-trigger {
+    cursor: pointer;
+    display: block;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-right-content-icons .riotbar-navmenu-right-icon {
+    float: left;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-right-content-icons .riotbar-navmenu-right-icon .lang-switch-trigger svg {
+    margin-top: 32px;
+    pointer-events: none;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown {
+    background: #212121;
+    border-top: 2px solid #262626;
+    box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    opacity: 0;
+    overflow: visible;
+    padding-bottom: 18px;
+    position: fixed;
+    height: 100%;
+    text-align: left;
+    transform: translateY(-5%);
+    top: 0px;
+    right: 0;
+    visibility: hidden;
+    width: 460px;
+    z-index: 10;
+    transition: transform 300ms, opacity 300ms;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown a {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header {
+    height: 78px;
+    background-color: #111111;
+    border-bottom: 2px solid #262626;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header a {
+    cursor: pointer;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header .sub-menu-header-text {
+    font-size: 18px;
+    position: absolute;
+    top: 22px;
+    left: 40px;
+    color: #F9F9F9;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header .sub-menu-back {
+    position: absolute;
+    top: 20px;
+    height: 30px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header .sub-menu-back svg {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header .sub-menu-close {
+    position: absolute;
+    top: 21px;
+    right: 31px;
+    width: 32px;
+    height: 32px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .sub-menu-header .sub-menu-close svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .side-menu-icon {
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    width: 10px;
+    height: 10px;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-dropdown .side-menu-icon svg {
+    display: block;
+}
+
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-touchpoints,
+#riotbar-bar .riotbar-right-content .riotbar-navmenu-links {
+    transition: opacity 0.2s linear;
+}
+
+#riotbar-bar .riotbar-right-content a.riotbar-navmenu-link {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    transition: color 1s cubic-bezier(0.06, 0.81, 0, 0.98);
+    border-bottom: 1px solid #111111;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+}
+
+#riotbar-bar .riotbar-right-content a.riotbar-navmenu-link:last-child {
+    margin-bottom: 0;
+}
+
+#riotbar-bar .riotbar-right-content.riotbar-show-links .riotbar-navmenu-links {
+    display: block;
+}
+
+#riotbar-bar #riotbar-mobile-nav {
+    display: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#riotbar-bar #riotbar-mobile-nav a {
+    margin-top: 23px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-bar #riotbar-mobile-nav {
+        display: inline !important;
+    }
+}
+
+#riotbar-navbar {
+    display: table;
+    font-size: 0;
+    height: 80px;
+    margin-right: 0;
+    max-width: 100%;
+    opacity: 1;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-navbar {
+        display: inline-block;
+    }
+}
+
+#riotbar-navbar.fade-in {
+    opacity: 0;
+}
+
+#riotbar-navbar.fade-in.ready {
+    opacity: 1;
+    transition: opacity 0.3s cubic-bezier(0.06, 0.81, 0, 0.98) 0s;
+}
+
+#riotbar-navbar .riotbar-explore-label {
+    display: none;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container {
+    display: inline-block;
+    position: relative;
+    height: 80px;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container .riotbar-navbar-subnav-menu {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    background-color: #111111;
+    text-align: left;
+    font-size: 1rem;
+    min-width: 200px;
+    opacity: 0;
+    transition: opacity 0.5s cubic-bezier(0.06, 0.81, 0, 0.98) 0s, visibility 0s;
+    display: none;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container .riotbar-navbar-subnav-menu li {
+    text-align: left;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container .riotbar-navbar-subnav-menu .riotbar-navbar-sub-link {
+    padding: 12px 32px;
+    width: 100%;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container .riotbar-navbar-subnav-menu li {
+    color: #1d1d1d;
+    border-bottom: solid 2px #111111;
+    list-style-type: none;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container .riotbar-navbar-subnav-menu li:hover {
+    cursor: pointer;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container svg.arrow-down {
+    display: inline-block;
+    margin-bottom: 1px;
+    margin-left: 5px;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container svg.hover {
+    display: none;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container:hover svg.non-hover {
+    display: none;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container:hover svg.hover {
+    display: inline-block;
+}
+
+#riotbar-navbar .riotbar-navbar-navitem-container.nav-dropdown-overflow.hide {
+    display: none;
+}
+
+#riotbar-navbar a {
+    border-bottom: 2px solid transparent;
+    color: #F9F9F9;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 76px;
+    margin: 0 0.85em;
+    overflow: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 2px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 1s cubic-bezier(0.06, 0.81, 0, 0.98), border-color 0.5s cubic-bezier(0.06, 0.81, 0, 0.98);
+}
+
+@media (max-width: 1115px) {
+    #riotbar-navbar a {
+        margin: 0 0.6375em;
+    }
+}
+
+@media (max-width: 1024px) {
+    #riotbar-navbar {
+        position: static;
+    }
+
+    #riotbar-navbar .riotbar-navbar-link,
+    #riotbar-navbar .riotbar-navbar-navitem-container {
+        display: none;
+    }
+
+    #riotbar-navbar .riotbar-explore-label {
+        display: block;
+        line-height: 80px;
+        height: 80px;
+    }
+
+    #riotbar-navbar .riotbar-explore-label svg {
+        display: block;
+        margin: 24px auto 0;
+        max-height: 50px;
+    }
+}
+
+#riotbar-navbar .riotbar-navbar-sub-link {
+    border: none;
+    line-height: 1.5em;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+#riotbar-navmenu {
+    color: #F9F9F9;
+    font-size: 14px;
+    height: 50px;
+}
+
+#riotbar-navmenu .riotbar-logo {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    margin-left: 32px;
+    width: 75px;
+}
+
+#riotbar-navmenu .riotbar-logo .riot-bar-fist-logo {
+    width: 160px;
+    height: 160px;
+    background: url(https://lolstatic-a.akamaihd.net/riotbar/live/1.1.5/images/navigation/fistsprite.png) 0 -2400px no-repeat;
+    transition: background-position 0.25s steps(15, end);
+    transform: scale(0.33);
+    position: absolute;
+    top: -55px;
+    left: -55px;
+}
+
+#riotbar-navmenu .riotbar-logo .riot-bar-fist-logo:hover {
+    background-position: 0 0;
+}
+
+#riotbar-navmenu .riotbar-logo svg {
+    position: absolute;
+    top: 3px;
+    left: 51px;
+}
+
+#riotbar-navmenu .riotbar-logo svg.hover {
+    display: none;
+}
+
+#riotbar-navmenu .riotbar-logo svg.drop {
+    margin-top: 22px !important;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+#riotbar-navmenu .riotbar-logo:hover svg.hover {
+    display: inline-block;
+}
+
+#riotbar-navmenu .riotbar-logo:hover svg.non-hover {
+    display: none;
+}
+
+#riotbar-navmenu .riotbar-navbar-separator.main-logo-separator {
+    margin-left: 0;
+    margin-right: 32px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+    #riotbar-navmenu .riotbar-navbar-separator.main-logo-separator {
+        display: none;
+    }
+}
+
+#riotbar-navmenu .second-logo {
+    display: inline-block;
+    height: 50px;
+}
+
+#riotbar-navmenu .second-logo a {
+    min-width: 38px;
+    display: block;
+}
+
+#riotbar-navmenu .second-logo svg {
+    margin-top: 9px;
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    .riotbar-mobile-responsive #riotbar-navmenu {
+        content: "sidebar";
+    }
+
+    .riotbar-mobile-responsive #riotbar-navmenu .second-logo {
+        display: none;
+    }
+}
+
+#riotbar-bar {
+    border-bottom: 2px solid rgba(51, 51, 51, 0.25);
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#riotbar-bar .riotbar-navmenu-category {
+    overflow: visible;
+    position: relative;
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#riotbar-bar .riotbar-navmenu-category:before,
+#riotbar-bar .riotbar-navmenu-category:after {
+    content: " ";
+    display: table;
+}
+
+#riotbar-bar .riotbar-navmenu-category:after {
+    clear: both;
+}
+
+#riotbar-account {
+    float: left;
+    white-space: nowrap;
+}
+
+#riotbar-account:after {
+    clear: both;
+}
+
+#riotbar-account .riotbar-account-anonymous-link-wrapper {
+    display: inline-block;
+    height: 80px;
+}
+
+#riotbar-account .riotbar-anonymous-link {
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px 15px;
+    transition: color 300ms cubic-bezier(0.06, 0.81, 0, 0.98);
+    vertical-align: middle;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#riotbar-account .riotbar-anonymous-link.theme-button {
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 16px;
+    height: 41px;
+    padding: 12px 0;
+    position: relative;
+    min-width: 129px;
+    max-width: 220px;
+    z-index: 0;
+    text-overflow: ellipsis;
+}
+
+#riotbar-account .riotbar-anonymous-link.theme-button:hover:before {
+    opacity: 1;
+}
+
+@media (max-width: 640px) {
+    .riotbar-mobile-responsive #riotbar-account .riotbar-anonymous-link {
+        display: none;
+    }
+
+    .riotbar-mobile-responsive #riotbar-account .riotbar-anonymous-link.riotbar-account-action {
+        display: inline-block;
+    }
+}
+
+.localization-management-list {
+    font-family: "FF Mark W05";
+    display: none;
+    width: 240px;
+    background-color: #F9F9F9;
+    border-radius: 4px;
+}
+
+.localization-management-list ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 12px;
+    max-height: 360px;
+    overflow-x: auto;
+}
+
+.localization-management-list ul li {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.localization-management-list ul li .lang-name {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 20px;
+}
+
+.localization-management-list ul li a,
+.localization-management-list ul li a:visited,
+.localization-management-list ul li a:link {
+    transition: color 0.3s linear;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #999999;
+    width: 100%;
+    padding: 0 0 0 20px;
+}
+
+.localization-management-list ul li a svg,
+.localization-management-list ul li a:visited svg,
+.localization-management-list ul li a:link svg {
+    position: absolute;
+    top: 35%;
+    right: 20px;
+    width: 14px;
+    height: 12px;
+    fill: #F9F9F9;
+}
+
+.localization-management-list ul li:hover a {
+    color: #111111;
+}
+
+.localization-management-list ul li.active {
+    cursor: default;
+}
+
+.localization-management-list ul li.active a {
+    color: #c4202b;
+}
+
+.riotbar-locale .icon-lang-switch {
+    position: relative;
+    font-family: "FF Mark W05";
+}
+
+.riotbar-locale .icon-lang-switch .lang-switch-dropdown {
+    position: absolute;
+    top: 90px;
+    left: -115px;
+    padding: 8px 0 8px 8px;
+}
+
+@media (max-width: 1024px) {
+    .riotbar-locale .icon-lang-switch .lang-switch-dropdown {
+        left: -155px;
+    }
+}
+
+.riotbar-locale .icon-lang-switch .lang-switch-dropdown .lang-switch-caret {
+    height: 0;
+    position: absolute;
+    width: 0;
+    left: 113px;
+    top: -20px;
+    border: 10px solid transparent;
+    border-bottom-color: #F9F9F9;
+}
+
+@media (max-width: 1024px) {
+    .riotbar-locale .icon-lang-switch .lang-switch-dropdown .lang-switch-caret {
+        left: 153px;
+    }
+}
+
+/*! CSS Used from: Embedded */
+.theme-button {
+    background-color: #FF4655 !important;
+}
+
+.theme-button:hover {
+    background-color: #FF4655 !important;
+}
+
+.theme-button:active {
+    background-color: #FF4655 !important;
+}
+
+.riotbar-navbar-link:hover {
+    border-color: #FF4655 !important;
+}
+
+#riotbar-navbar a:hover {
+    border-bottom-color: #FF4655 !important;
+}
+
+#riotbar-bar .sub-menu-header-icon svg {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: block;
+    max-height: 50px;
+}

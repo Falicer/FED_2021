@@ -1,0 +1,238 @@
+@media (max-width: 667px) {
+
+    /* -----Homepage----- */
+    /* First Section */
+    #ColumnFirst {
+        height: 62.3vw;
+    }
+
+    .textWrapper {
+        padding: 0px;
+        position: absolute;
+        margin-top: -225px;
+    }
+
+    #mainText {
+        margin-top: 1rem;
+    }
+
+    #mainText p {
+        margin: 0 0 1rem;
+    }
+
+    .svgMain {
+        width: 15rem;
+    }
+
+    .btn {
+        margin-top: 2rem;
+    }
+
+    #titleSubText {
+        font-size: 1.5rem !important;
+    }
+
+    #videoMain video {
+        width: 150%;
+        position: relative;
+    }
+
+    /* First Section Closed */
+    /* background text */
+    .background_Text {
+        font-size: 10em;
+    }
+
+    .backgroundText_Div {
+        overflow: hidden;
+        height: 50%;
+        line-height: 0.9;
+    }
+
+    /* Latest Nest Section */
+    #latest_News {
+        padding-left: 1em;
+        padding-top: 1em;
+        padding-bottom: 4em;
+    }
+
+    #latest_Text {
+        font-size: 3em;
+        width: 250px;
+    }
+
+    .news_Articles {
+        display: block;
+    }
+
+    #sidebar_News {
+        position: absolute;
+        margin-top: 730px;
+        font-size: 2rem;
+    }
+
+    .article_Css {
+        padding-right: 0px;
+        width: 350px;
+        padding-bottom: 20px;
+    }
+
+    .section img {
+        width: 90%;
+        height: 100%;
+    }
+
+    .section h4 {
+        font-size: 20px;
+    }
+
+
+    /* Agents Section */
+
+    #agents_Image {
+        height: 500px;
+        width: 80%;
+        margin-left: 2rem;
+    }
+
+    #agents_Position {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #agents_Text {
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+
+    #agents_Text h2 {
+        font-size: 4rem;
+        line-height: 4rem;
+        margin-bottom: 20px;
+    }
+
+    #agents_Text h3 {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    #agents_Text p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        width: 303px;
+    }
+
+    #agent_Button {
+        position: absolute;
+        margin-top: 20rem;
+    }
+
+
+    /* Map section */
+
+    #place_Text {
+        display: none;
+    }
+
+    #maps_Text {
+        margin: 0px;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    #maps_Text h2 {
+        font-size: 5rem;
+        line-height: 5rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    #maps_Text h3 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    #maps_Text p {
+        width: 325px;
+        color: #768079;
+        font-size: 1.4em;
+        line-height: 1.4em;
+    }
+
+
+    #maps_background {
+        margin: 0px;
+        width: auto;
+        height: 600px;
+        max-height: inherit;
+        position: relative;
+        overflow: hidden;
+        margin-left: -100%;
+        margin-top: 60%;
+    }
+
+    #maps_Button {
+        position: absolute;
+        margin-top: 25rem;
+        margin-left: 2rem;
+    }
+
+    #maps_Position {
+        height: 845px;
+        padding: 20px 0px 0px 0px;
+    }
+
+
+    /* -----Agent Pagina----- */
+    #agent_BackgroundVideo {
+        display: none;
+    }
+
+    #intro_Position {
+        flex-direction: column;
+    }
+
+    #agent_Name {
+        padding: 0;
+        font-size: 5em;
+        margin: auto;
+        width: 105px;
+    }
+
+    #yoru_Image {
+        height: 558px;
+        padding: 1em;
+        margin: auto;
+    }
+
+    #agent_Role {
+        margin: 0 1em;
+    }
+
+    #darkblue_Bg {
+        height: 65em;
+    }
+
+    #agentrole_Text{
+        font-size: 1.5em;
+    }
+
+    #agent_RoleText{
+        font-size: 3em;
+    }
+
+    #duelist_Tag{
+        width: 30px;
+        height: 30px;
+    }
+
+    #agent_BioTitle{
+        font-size: 1.5em;
+    }
+
+    #agent_BioText {
+        width: 12.7em;
+        font-size: 1.4em;
+    }
+}
