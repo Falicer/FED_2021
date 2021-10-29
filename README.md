@@ -19,10 +19,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Raekwon Gerold
 
 #### Je startniveau:
-Rood? (kies uit zwart, rood óf blauw)
+Rood/Blauw (kies uit zwart, rood óf blauw)
 
 #### Je focus:
-Twijfel er nog over (kies uit responsive óf surface plane)
+ 
+Responsive
  
 </details>
 
@@ -37,21 +38,22 @@ Twijfel er nog over (kies uit responsive óf surface plane)
 
 ### Je opdracht:
 link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
- 
- Kan niet echt een site bedenken, die van vorig jaar was nice, maar had te weinig tijd nadat ik mijn eerste "lock" had gefixt.
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+[Valorant Home](https://playvalorant.com)  
+<img src="https://i.gyazo.com/d721ef609d03747fcefe94e0b5e294f5.png" width="375px" alt="Valorant Homepage">
+<img src="https://i.gyazo.com/c015eabd0d4ef763ff2b1d042e1b5a19.png" width="375px" alt="Valorant Homepage">
+<img src="https://i.gyazo.com/710d58b8c04daf49010d843043a5b2bb.png" width="375px" alt="Valorant Homepage">
+<img src="https://i.gyazo.com/31a47af035fec6097f60276b36543516.png" width="375px" alt="Valorant Homepage">
+<img src="https://i.gyazo.com/e334080399fd67cd50eefe3f37d90d6f.png" width="375px" alt="Valorant Homepage">
+<img src="https://i.gyazo.com/9edc7f93c4879339547a910e2ba68b38.png" width="375px" alt="Valorant Homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+[Agents](https://playvalorant.com/en-gb/agents/)  
+<img src="https://i.gyazo.com/6ff87b8948b761e12b82d37c00634a87.png" width="375px" alt="Valorant Agents">
+<img src="https://i.gyazo.com/89aa95a204ed44000070e2611bc31770.png" width="375px" alt="Valorant Agents">
  
 </details>
-
-
-
 
 
 ## Breakdownschets (week 1)
@@ -60,13 +62,12 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="Opdrachten/Breakdownschets/breakdown1.png" width="375px" alt="homepage">
+<img src="Opdrachten/Breakdownschets/breakdown2.png" width="375px" alt="homepage">
+<img src="Opdrachten/Breakdownschets/breakdown4.png" width="375px" alt="homepage">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+### dynamisch deel Social slider (Dit is nu de article slider): 
+<img src="Opdrachten/Breakdownschets/breakdown3.png" width="375px" alt="homepage">
 
 </details>
 
@@ -80,7 +81,7 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Zat ziek thuis en kon niet veel verder werken.
 
 
 ### Agenda voor meeting
@@ -235,8 +236,10 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. [De Originele site](https://playvalorant.com/)
+2. https://redstapler.co/responsive-css-video-background/
+3. https://codepen.io/Axiol/pen/mdeyWwQ
+4. https://codepen.io/Phong6698/pen/pojVjjq
+5. https://stackoverflow.com/questions/5527296/how-can-i-detect-scroll-end-of-the-specified-element-by-javascript
 
 </details>
