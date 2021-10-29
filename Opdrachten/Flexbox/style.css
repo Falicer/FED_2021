@@ -1,0 +1,408 @@
+/* een paar algemene dingetjes */
+/* hoef je niets aan te veranderen */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+body {
+  margin:0; padding:5vw;
+  font-family:sans-serif;
+  background-color:rgb(214,214,214);
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters */
+  counter-reset: sommetje;
+}
+
+body > p {
+  max-width:24em;
+}
+
+ul {
+  position:relative;
+  margin:5vw 0 0 0;
+  padding:1em;
+  list-style:none;
+}
+ul:nth-of-type(odd) {
+  background-color:darkorange;
+}
+ul:nth-of-type(even) {
+  background-color:Hotpink;
+}
+
+ul::before {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters */
+  counter-increment: sommetje;
+  content: "sommetje " counter(sommetje);
+  
+  position:absolute;
+  left:.25em; top:.125em;
+  font-size:.5em;
+}
+
+li {
+  padding: .5em;
+}
+
+ul:nth-of-type(odd) li:nth-of-type(even),
+ul:nth-of-type(even) li:nth-of-type(odd){ 
+  background-color:SkyBlue;
+}
+ul:nth-of-type(odd) li:nth-of-type(odd),
+ul:nth-of-type(even) li:nth-of-type(even){
+  background-color:LightGreen;
+}
+
+img {
+  height:1.75em;
+}
+
+
+
+/* JOUW CODE VANAF HIER */
+
+
+
+/**************/
+/* SOMMETJE 1 */
+/**************/
+
+/* de ul moet een flex-container worden */
+ul:nth-of-type(1) {
+  /* jouw code hier */
+  display:flex;
+}
+
+/* de li's zijn de flex-kinderen */
+ul:nth-of-type(1) li {
+  /* hoef je bij sommetje 1 niets mee te doen */
+}
+
+
+
+/**************/
+/* SOMMETJE 2 */
+/**************/
+
+ul:nth-of-type(2) {
+  /* jouw code hier */
+  display:flex;
+  justify-content:space-between;
+}
+
+ul:nth-of-type(2) li {
+  /* hoef je bij sommetje 2 niets mee te doen */
+}
+
+
+
+/**************/
+/* SOMMETJE 3 */
+/**************/
+
+ul:nth-of-type(3) {
+  /* jouw code hier */
+  display:flex;
+  justify-content:flex-end;
+}
+
+ul:nth-of-type(3) li {
+  /* hoef je bij sommetje 3 niets mee te doen */
+}
+
+
+
+/**************/
+/* SOMMETJE 4 */
+/**************/
+
+ul:nth-of-type(4) {
+  /* jouw code hier */
+  display:flex;
+}
+
+ul:nth-of-type(4) li {
+  /* jouw code hier */
+  flex-grow:1;
+}
+
+ul:nth-of-type(4) li img {
+  /* jouw code hier */
+  /* voor een beetje ruimte tussen plaatje en tekst */
+  margin-right:.125em;
+}
+
+
+
+/**************/
+/* SOMMETJE 5 */
+/**************/
+
+ul:nth-of-type(5) {
+  /* jouw code hier */
+  display:flex;
+}
+
+ul:nth-of-type(5) li {
+  /* jouw code hier */
+  flex-grow:1;
+  
+  /* geneste flex */
+  /* om de items (img en textnode) in de li te centreren */
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+ul:nth-of-type(5) li img {
+  /* jouw code hier */
+  margin-right:.125em;
+}
+
+
+
+/**************/
+/* SOMMETJE 6 */
+/**************/
+
+ul:nth-of-type(6) {
+  /* jouw code hier */
+  display:flex;
+  /* zodat de kinderen naar de volgende regel gaan als het niet meer past */
+  flex-wrap:wrap;
+}
+
+ul:nth-of-type(6) li {
+  /* jouw code hier */
+  /* de kinderen worden 50% van de breedte van de ouder */
+  flex-basis:50%;
+}
+
+ul:nth-of-type(6) li img {
+  /* jouw code hier */
+  margin-right:.125em;
+}
+
+
+
+/**************/
+/* SOMMETJE 7 */
+/**************/
+
+ul:nth-of-type(7) {
+  /* jouw code hier */
+  display:flex;
+  flex-wrap:wrap;
+}
+
+ul:nth-of-type(7) li {
+  /* jouw code hier */
+  /* om te binnen 10em breed */
+  flex-basis:10em;
+  /* daarmee de overgebleven ruimte verdelen met de andere kinderen op dezelfde regel */
+  flex-grow:1;
+  
+  /* ge-neste flex */
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+ul:nth-of-type(7) li img {
+  /* jouw code hier */
+  margin-right:.125em;
+}
+
+
+
+/**************/
+/* SOMMETJE 8 */
+/**************/
+
+ul:nth-of-type(8) {
+  /* jouw code hier */
+  display:flex;
+}
+
+ul:nth-of-type(8) li:first-of-type {
+  /* jouw code hier */
+  /* het eerste kind pikt alle overgebleven ruimte in */
+  flex-grow:1;
+}
+
+ul:nth-of-type(8) li img {
+  /* jouw code hier */
+  margin-right:.125em;
+}
+
+
+
+/**************/
+/* SOMMETJE 9 */
+/**************/
+
+ul:nth-of-type(9) {
+  /* jouw code hier */
+  display:flex;
+}
+
+ul:nth-of-type(9) li:first-of-type {
+  /* jouw code hier */
+  order:1;
+}
+
+ul:nth-of-type(9) li:nth-of-type(2) {
+  /* jouw code hier */
+  /* 'order' kan ook negatief zijn */
+  order:-1;
+}
+
+ul:nth-of-type(9) li:last-of-type {
+  /* jouw code hier */
+  /* dit is de standaard 'order' */
+  order:0;
+}
+
+ul:nth-of-type(9) li img {
+  /* jouw code hier */
+  margin-right:.125em;
+}
+
+
+
+/***************/
+/* SOMMETJE 10 */
+/***************/
+
+ul:nth-of-type(10) {
+  /* jouw code hier */
+  display:flex;
+}
+
+ul:nth-of-type(10) li {
+  /* jouw code hier */
+  /* de kinderen flexen ook */
+  /* maar dan verticaal */
+  display:flex;
+  flex-direction:column;
+}
+
+/* zoek even op wat het plusje doet */
+/* css-tricks.com/almanac/selectors/a/adjacent-sibling/ */
+ul:nth-of-type(10) li + li {
+  /* jouw code hier */
+  margin-left:1em;
+}
+
+ul:nth-of-type(10) li img {
+  /* jouw code hier */
+  margin-right:.125em;
+}
+
+
+
+/***************/
+/* SOMMETJE 11 */
+/***************/
+
+ul:nth-of-type(11) {
+  /* jouw code hier */
+  display:flex;
+}
+
+ul:nth-of-type(11) li + li {
+  /* jouw code hier */
+  margin-left:1em;
+}
+
+ul:nth-of-type(11) li:first-of-type {
+  /* jouw code hier */
+  /* de margin-right van het eerste kind wordt zo groot als de ruimte die over is */
+  /* daarmee worden de andere kinderen naar rechts 'geduwd' */
+  margin-right:auto;
+}
+
+ul:nth-of-type(11) li img {
+  /* jouw code hier */
+  margin-right:.125em;
+}
+
+
+
+/***************/
+/* SOMMETJE 12 */
+/***************/
+
+ul:nth-of-type(12) {
+  /* jouw code hier */
+  display:flex;
+  /* als er elementen uitsteken kun je er naar toe scrollen */
+  /* https://css-tricks.com/almanac/properties/o/overflow/ */
+  overflow-x:auto;
+}
+
+ul:nth-of-type(12) li {
+  /* jouw code hier */
+  /* om te zorgen dat de kinderen niet smaller worden dan hun initiele breedte */
+  flex-shrink:0;
+}
+
+ul:nth-of-type(12) li img {
+  /* jouw code hier */
+  margin-right:.125em;
+}
+
+
+
+/***************/
+/* SOMMETJE 13 */
+/***************/
+
+ul:nth-of-type(13) {
+  /* jouw code hier */
+  display:flex;
+  overflow-x:auto;
+  
+  /* om de kinderen te laten snappen */
+  scroll-snap-type: x mandatory;
+}
+
+ul:nth-of-type(13) li {
+  /* jouw code hier */
+  flex-basis:4em;
+  flex-shrink:0;
+  align-items:center;
+  
+  /* een kind geeft aan waar 't snapt */
+  scroll-snap-align: center;
+  
+  /* de elementen in de li flexen weer verticaal */
+  /* maar nu in omgekeerde volgorde */
+  display:flex;
+  flex-direction:column-reverse;
+}
+
+ul:nth-of-type(13) li + li {
+  /* jouw code hier */
+  margin-left:.5em;
+}
+
+ul:nth-of-type(13) li img {
+  /* jouw code hier */
+  margin-top:.25em;
+}
+
+/* nodig om helemaal rechts ook padding te creeeren */
+/* https://chenhuijing.com/blog/flexbox-and-padding/#%F0%9F%9A%B2 */
+ul:nth-of-type(13) li:last-of-type {
+  /* jouw code hier */
+  position:relative;
+}
+
+ul:nth-of-type(13) li:last-of-type::after {
+  /* jouw code hier */
+  content:"";
+  position:absolute;
+  width:1em; height:1em;
+  left:100%; top:0; 
+  user-select:none;
+}

@@ -1,0 +1,204 @@
+*, *::after, *::before {
+  box-sizing:border-box;
+}
+
+body {
+  margin:0; padding:5vw;
+  font-family:sans-serif;
+  background-color:rgb(214,214,214);
+}
+
+ul {
+  margin:0; padding:0;
+  list-style:none;
+}
+
+li {
+  background-color:white;
+}
+
+
+li:first-of-type {
+  padding:1em;
+  background:white;
+  overflow:auto;
+}
+
+li:first-of-type h2 {
+  font-family: 'Expletus Sans';
+  font-size:2em;
+}
+
+li:first-of-type p {
+  line-height:1.5em;
+}
+li:first-of-type p::first-letter {
+  font-family: 'Expletus Sans';
+  font-size:2em;
+  font-weight:bold;
+}
+
+
+li:nth-of-type(2) {
+  display:grid;
+  grid-auto-columns:min-content;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background-color:rgb(0,24,54);
+}
+
+li:nth-of-type(2) h2 {
+  font-family: Spartan;
+  font-size:2.5em;
+  font-weight:100;
+  line-height:1em;
+  text-transform:uppercase;
+  color:white;
+  text-shadow:0 0 0.25em lightblue;
+
+}
+
+
+li:nth-of-type(3) {
+  display:grid;
+  grid-auto-columns:min-content;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background-color:rgb(230,127,138);
+}
+
+li:nth-of-type(3) h2 {
+  color:white;
+  font-family:'Open Sans condensed';
+  font-size:3em;
+  line-height:1em;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  text-shadow:.1em .1em 0 rgba(0,0,0,.75);
+  transform: skewY(-10deg);
+}
+
+
+
+/*******************************/
+/* CODE VOOR HET VIERDE BLOKJE */
+/*******************************/
+
+  /* it's all yours */
+  /* jouw code hier */
+  li:nth-of-type(4) {
+    display:grid;
+    grid-auto-columns:min-content;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background: linear-gradient(45.3deg, blue 50%, #DB0000 50%);
+  }
+
+  li:nth-of-type(4) h2{
+    font-size: 4em;
+    font-family: Impact;
+    color: white;
+    transform: rotate(45.3deg);
+  }
+
+  li:nth-of-type(4) h2 span{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: white;
+  }
+
+
+
+/*******************************/
+/* CODE VOOR HET VIJFDE BLOKJE */
+/*******************************/
+
+  /* it's all yours */
+  /* jouw code hier */
+  li:nth-of-type(5) {
+    display:grid;
+    grid-auto-columns:min-content;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+  }
+
+  li:nth-of-type(5) h2{
+    font-size: 5em;
+    background: -webkit-linear-gradient(45deg, aqua, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+/******************************/
+/* CODE VOOR HET ZESDE BLOKJE */
+/******************************/
+
+  /* it's all yours */
+  /* jouw code hier */
+  li:nth-of-type(6) {
+    display:grid;
+    grid-auto-columns:min-content;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-size: 10em;
+  }
+
+  li:nth-of-type(6) span:first-of-type{
+    position: absolute;
+    margin-left: -25px;
+    opacity: 0.7;
+    color: aquamarine;
+  }
+
+  li:nth-of-type(6) span{
+    margin-left: 35px;
+    color: purple;
+    opacity: 0.7;
+  }
+
+/* Hieronder code om de blokjes naast elkaar te zetten. Daar hoef je niet naar te kijken en hoef je ook niets aan aan te passen. */
+
+ul {
+  display:grid;
+  grid-gap:5vw;
+}
+
+li {
+    height:90vw;
+  }
+
+@media (min-width:32em) {
+  body {
+    padding:3vw;
+  }
+
+  ul {
+    grid-template-columns:1fr 1fr;
+    grid-gap:3vw;
+  }
+
+  li {
+    height:45.5vw;
+  }
+}
+
+@media (min-width:48em) {
+  body {
+    padding:2.5vw;
+  }
+
+  ul {
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:2.5vw;
+  }
+
+  li {
+    height:30vw;
+  }
+}

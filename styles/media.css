@@ -1,4 +1,37 @@
-@media (max-width: 667px) {
+/* Notes to remember: 
+Fix Background text Either:
+1. max-width 1500??, remove background text below 1200~ px
+2. Make the background text size smoothly transition
+3. just remove it all together
+
+Make responsiveness smoother
+
+Latest news Flex in sooner around 1300px?
+
+Download client verdwijnt in column erboven, de preciese pixel idk???
+*/
+
+@media (min-width: 667px) and (max-width: 1100px){
+    #videoMain video{
+        width: 100%;
+        position: absolute;
+    }
+
+    #mainText{
+        margin-top: 0px;
+    }
+    #mainText p {
+        margin: 0px;
+    }
+    .svgMain{
+        width: 20rem;
+    }
+    .textWrapper .btn{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 667px) {
 
     /* -----Homepage----- */
     /* First Section */
@@ -44,9 +77,10 @@
     }
 
     .backgroundText_Div {
-        overflow: hidden;
+        /* overflow: hidden;
         height: 50%;
-        line-height: 0.9;
+        line-height: 0.9; */
+        display: none;
     }
 
     /* Latest Nest Section */
