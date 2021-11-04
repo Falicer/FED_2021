@@ -126,7 +126,10 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
 
 
     /* Agents Section */
-
+    #latest_Text {
+        font-weight: normal;
+    }
+    
     #agents_Image {
         height: 500px;
         width: 80%;
