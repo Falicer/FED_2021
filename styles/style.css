@@ -450,6 +450,11 @@ html{
   padding: 20px 0px;
 }
 
+.agent_Name{
+  transition: all .2s ease;
+}
+
+
 #agents_Text {
   margin-top: 50px;
 }
@@ -575,6 +580,11 @@ h2 {
   font-size: 7em;
   padding-left: 2.2em;
   cursor: pointer;
+}
+
+#name_Positioning>h1:hover{
+  color: white;
+  transform: skew(-15deg);
 }
 
 #name_Positioning>h1:first-of-type {
@@ -785,8 +795,4 @@ footer .riotbar-game-ratings {
 .riotbar-legal-links a {
   margin: 0 5px;
   font-size: 1.2rem;
-}
-
-.animation{
-  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
