@@ -11,22 +11,25 @@ Latest news Flex in sooner around 1300px?
 Download client verdwijnt in column erboven, de preciese pixel idk???
 */
 
-@media (min-width: 667px) and (max-width: 1580px){
-    #videoMain video{
+@media (min-width: 667px) and (max-width: 1580px) {
+    #videoMain video {
         width: 100%;
         position: absolute;
     }
 
-    #mainText{
+    #mainText {
         margin-top: 0px;
     }
+
     #mainText p {
         margin: 0px;
     }
-    #svgMain{
+
+    #svgMain {
         width: 20rem;
     }
-    #textWrapper .btn{
+
+    #textWrapper .btn {
         margin-top: 2rem;
     }
 
@@ -37,7 +40,7 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
 
 @media screen and (max-width: 667px) {
 
-    *{
+    * {
         font-weight: normal;
     }
 
@@ -230,7 +233,7 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
         padding: 20px 0px 0px 0px;
     }
 
-    .btn__content{
+    .btn__content {
         font-weight: bold !important;
     }
 
@@ -248,8 +251,8 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
         font-size: 5em;
         margin: auto;
     }
-    
-    #name_Positioning>h1:first-of-type{
+
+    #name_Positioning>h1:first-of-type {
         padding: 0;
     }
 
@@ -268,20 +271,20 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
         height: 65em;
     }
 
-    #agentrole_Text{
+    #agentrole_Text {
         font-size: 1.5em;
     }
 
-    #agent_RoleText{
+    #agent_RoleText {
         font-size: 3em;
     }
 
-    #agent_Tag{
+    #agent_Tag {
         width: 30px;
         height: 30px;
     }
 
-    #agent_BioTitle{
+    #agent_BioTitle {
         font-size: 1.5em;
     }
 
@@ -290,7 +293,7 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
         font-size: 1.4em;
     }
 
-    #name_Positioning{
+    #name_Positioning {
         display: flex;
         flex-wrap: wrap;
     }

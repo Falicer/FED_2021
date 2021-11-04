@@ -1,10 +1,10 @@
 /* CSS Document */
 /* CSS Variables */
-:root{
+:root {
   --border-color: #7D8082;
---button-background-color: #ece8e1;
---highlight-color: #0f1923;
---button-inner-border-color: transparent;
+  --button-background-color: #ece8e1;
+  --highlight-color: #0f1923;
+  --button-inner-border-color: transparent;
 }
 
 
@@ -16,7 +16,7 @@
   scroll-behavior: smooth;
 }
 
-main{
+main {
   overflow: hidden;
 }
 
@@ -27,9 +27,10 @@ main{
   src: url(../fonts/Tungsten_Bold.woff);
 }
 
-html{
+html {
   font-family: Tungsten_Bold !important;
 }
+
 /* -----Homepage Css----- */
 
 /* Text Hider */
@@ -38,7 +39,7 @@ html{
   white-space: nowrap;
   overflow: hidden;
   position: absolute;
-  
+
 }
 
 /* Video Section */
@@ -160,7 +161,7 @@ html{
   /* Color variables for the button */
   --button-bits-color: var(--background-color);
   --button-bits-color-hover: var(--button-background-color);
-    --button-text-color: var(--background-color);
+  --button-text-color: var(--background-color);
   --button-text-color-hover: var(--button-background-color);
 
   position: relative;
@@ -450,7 +451,7 @@ html{
   padding: 20px 0px;
 }
 
-.agent_Name{
+.agent_Name {
   transition: all .2s ease;
 }
 
@@ -459,7 +460,7 @@ html{
   margin-top: 50px;
 }
 
-#sidebar_Text{
+#sidebar_Text {
   font-size: 150%;
 }
 
@@ -549,11 +550,11 @@ h2 {
   animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
 
-.text_Animation{
+.text_Animation {
   animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
 
-.agent_Animation{
+.agent_Animation {
   animation: 300ms ease-in-out 500ms 1 slideInFromRight backwards;
 }
 
@@ -602,7 +603,7 @@ h2 {
   cursor: pointer;
 }
 
-#name_Positioning>h1:hover{
+#name_Positioning>h1:hover {
   color: white;
   transform: skew(-15deg);
 }
@@ -623,7 +624,7 @@ h2 {
   animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
 
-#image_Section{
+#image_Section {
   animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
 
