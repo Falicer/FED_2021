@@ -78,12 +78,14 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
     /* background text */
     .background_Text {
         font-size: 10em;
+        overflow: hidden;
     }
 
     .backgroundText_Div {
         /* overflow: hidden;
         height: 50%;
         line-height: 0.9; */
+        line-height: 120px;
         display: none;
     }
 
