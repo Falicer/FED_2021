@@ -570,26 +570,30 @@ h2 {
   height: 800px;
 }
 
-#agent_Name {
+#name_Positioning>h1 {
   color: #ff4655;
   font-size: 7em;
-  padding-top: 2.42em;
   padding-left: 2.2em;
+  cursor: pointer;
 }
 
-#yoru_Image {
+#name_Positioning>h1:first-of-type {
+  padding-top: 1.1em;
+}
+
+#agent_Image {
   height: 100%;
   padding: 2% 10em;
 }
 
 #agent_Role {
-  margin-left: -20em;
+  margin-left: -12em;
   margin-top: 8em;
   color: #ece8e1;
   
 }
 
-#duelist_Tag {
+#agent_Tag {
   height: 50px;
   width: 50px;
 }
@@ -781,4 +785,8 @@ footer .riotbar-game-ratings {
 .riotbar-legal-links a {
   margin: 0 5px;
   font-size: 1.2rem;
+}
+
+.animation{
+  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }

@@ -243,21 +243,25 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
         flex-direction: column;
     }
 
-    #agent_Name {
+    #name_Positioning>h1 {
         padding: 0;
         font-size: 5em;
         margin: auto;
-        width: 105px;
+    }
+    
+    #name_Positioning>h1:first-of-type{
+        padding: 0;
     }
 
-    #yoru_Image {
+    #agent_Image {
         height: 558px;
+        width: 403px;
         padding: 1em;
-        margin: auto;
+        margin: 0px auto;
     }
 
     #agent_Role {
-        margin: 0 1em;
+        margin: 0 auto;
     }
 
     #darkblue_Bg {
@@ -272,7 +276,7 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
         font-size: 3em;
     }
 
-    #duelist_Tag{
+    #agent_Tag{
         width: 30px;
         height: 30px;
     }
@@ -284,5 +288,10 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
     #agent_BioText {
         width: 12.7em;
         font-size: 1.4em;
+    }
+
+    #name_Positioning{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
