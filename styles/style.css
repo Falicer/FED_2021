@@ -549,7 +549,7 @@ h2 {
   animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
 
-.animation{
+.text_Animation{
   animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
 
@@ -592,6 +592,7 @@ h2 {
   z-index: 2;
   position: relative;
   height: 800px;
+  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
 
 #name_Positioning>h1 {
@@ -619,6 +620,11 @@ h2 {
   margin-left: -12em;
   margin-top: 8em;
   color: #ece8e1;
+  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
+}
+
+#image_Section{
+  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
 
 #agent_Tag {
