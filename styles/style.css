@@ -1,4 +1,13 @@
 /* CSS Document */
+
+/* CSS Variables */
+
+--border-color: #7D8082;
+--button-background-color: #ece8e1;
+--highlight-color: #0f1923;
+--button-inner-border-color: transparent;
+
+
 *,
 *::after,
 *::before {
@@ -148,14 +157,10 @@ html{
   cursor: pointer;
 
   /* Color variables for the button */
-  --button-text-color: var(--background-color);
-  --button-text-color-hover: var(--button-background-color);
-  --border-color: #7D8082;
-  --button-background-color: #ece8e1;
-  --highlight-color: #0f1923;
-  --button-inner-border-color: transparent;
   --button-bits-color: var(--background-color);
   --button-bits-color-hover: var(--button-background-color);
+    --button-text-color: var(--background-color);
+  --button-text-color-hover: var(--button-background-color);
 
   position: relative;
   padding: 8px;
@@ -445,6 +450,7 @@ html{
 
 #agents_Text {
   margin-top: 50px;
+  font-weight: normal;
 }
 
 #sidebar_Text{
