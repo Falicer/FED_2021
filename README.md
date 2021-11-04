@@ -160,6 +160,7 @@ Ging goed:
 hier screenshot(s) van je eindresultaat
 
 </details>
+
 ## Bronnenlijst
 
 <details open>
