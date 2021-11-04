@@ -23,15 +23,19 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
     #mainText p {
         margin: 0px;
     }
-    .svgMain{
+    #svgMain{
         width: 20rem;
     }
-    .textWrapper .btn{
+    #textWrapper .btn{
         margin-top: 2rem;
     }
 }
 
 @media screen and (max-width: 667px) {
+
+    *{
+        font-weight: normal;
+    }
 
     /* -----Homepage----- */
     /* First Section */
@@ -39,7 +43,7 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
         height: 62.3vw;
     }
 
-    .textWrapper {
+    #textWrapper {
         padding: 0px;
         position: absolute;
         margin-top: -225px;
@@ -53,7 +57,7 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
         margin: 0 0 1rem;
     }
 
-    .svgMain {
+    #svgMain {
         width: 15rem;
     }
 
@@ -137,14 +141,12 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
     #agents_Text {
         margin-top: 1em;
         margin-left: 1em;
-        font-weight: normal;
     }
 
     #agents_Text h2 {
         font-size: 4rem;
         line-height: 4rem;
         margin-bottom: 20px;
-        font-weight: normal;
     }
 
     #agents_Text h3 {

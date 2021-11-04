@@ -1,11 +1,11 @@
 /* CSS Document */
-
 /* CSS Variables */
-
---border-color: #7D8082;
+:root{
+  --border-color: #7D8082;
 --button-background-color: #ece8e1;
 --highlight-color: #0f1923;
 --button-inner-border-color: transparent;
+}
 
 
 *,
@@ -38,6 +38,7 @@ html{
   white-space: nowrap;
   overflow: hidden;
   position: absolute;
+  
 }
 
 /* Video Section */
@@ -68,7 +69,7 @@ html{
   object-fit: cover;
 }
 
-.svgMain {
+#svgMain {
   fill: currentColor;
   max-width: none;
   margin: 0 auto;
@@ -78,7 +79,7 @@ html{
   filter: drop-shadow(0 0 .75em rgba(0, 0, 0, .3));
 }
 
-.svgMain svg {
+#svgMain svg {
   display: block;
   height: 100%;
   width: 100%;
@@ -108,7 +109,7 @@ html{
   font-size: 2rem !important;
 }
 
-.textWrapper {
+#textWrapper {
   height: auto;
   width: 100%;
   max-width: 123rem;
@@ -450,7 +451,6 @@ html{
 
 #agents_Text {
   margin-top: 50px;
-  font-weight: normal;
 }
 
 #sidebar_Text{
