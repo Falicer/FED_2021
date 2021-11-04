@@ -129,7 +129,7 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
     #latest_Text {
         font-weight: normal;
     }
-    
+
     #agents_Image {
         height: 500px;
         width: 80%;
@@ -224,6 +224,9 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
         padding: 20px 0px 0px 0px;
     }
 
+    .btn__content{
+        font-weight: bold !important;
+    }
 
     /* -----Agent Pagina----- */
     #agent_BackgroundVideo {
