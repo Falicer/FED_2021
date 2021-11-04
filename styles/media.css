@@ -11,7 +11,7 @@ Latest news Flex in sooner around 1300px?
 Download client verdwijnt in column erboven, de preciese pixel idk???
 */
 
-@media (min-width: 667px) and (max-width: 1100px){
+@media (min-width: 667px) and (max-width: 1580px){
     #videoMain video{
         width: 100%;
         position: absolute;
@@ -28,6 +28,10 @@ Download client verdwijnt in column erboven, de preciese pixel idk???
     }
     #textWrapper .btn{
         margin-top: 2rem;
+    }
+
+    .backgroundText_Div {
+        display: none;
     }
 }
 

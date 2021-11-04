@@ -414,6 +414,7 @@ html{
 
 .news_Articles {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .article_Css {
