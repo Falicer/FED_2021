@@ -157,7 +157,18 @@ Ging goed:
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+hier screenshot(s) van je eindresultaat  
+ 
+Home  
+<img src="https://i.gyazo.com/909b976dd105bb410dd68b795bf669c1.png" width="375px" alt="Valorant Homepage">
+<img src="https://i.gyazo.com/b0706cf668818241280e28a755ef0657.png" width="375px" alt="Valorant Homepage">
+<img src="https://i.gyazo.com/ad0ab2fe074d2dc8491bd0eb274f309a.png" width="375px" alt="Valorant Homepage">
+<img src="https://i.gyazo.com/d721ef609d03747fcefe94e0b5e294f5.png" width="375px" alt="Valorant Homepage">
+<img src="https://i.gyazo.com/7f6a073172df74148436425afa7a732d.png" width="375px" alt="Valorant Homepage">
+ 
+Agents  
+<img src="https://i.gyazo.com/1a6f577ae189ba81bf582ae64c10a8f7.png" width="375px" alt="Valorant Homepage">
+<img src="https://i.gyazo.com/b045bb60fa4a5271fac48c80e6301ec6.png" width="375px" alt="Valorant Homepage">
 
 </details>
 
