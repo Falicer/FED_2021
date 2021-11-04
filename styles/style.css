@@ -547,15 +547,15 @@ html {
 /* Animation */
 
 h2 {
-  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
+  animation: 300ms ease-in-out 1000ms 1 slideInFromBottom backwards;
 }
 
 .text_Animation {
-  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
+  animation: 300ms ease-in-out 1000ms 1 slideInFromBottom backwards;
 }
 
 .agent_Animation {
-  animation: 300ms ease-in-out 500ms 1 slideInFromRight backwards;
+  animation: 300ms ease-in-out 1000ms 1 slideInFromRight backwards;
 }
 
 @keyframes slideInFromBottom {
@@ -593,7 +593,7 @@ h2 {
   z-index: 2;
   position: relative;
   height: 800px;
-  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
+  animation: 200ms ease-in-out 700ms 1 slideInFromBottom backwards;
 }
 
 #name_Positioning>h1 {
@@ -621,11 +621,11 @@ h2 {
   margin-left: -12em;
   margin-top: 8em;
   color: #ece8e1;
-  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
+  animation: 500ms ease-in-out 1500ms 1 slideInFromBottom backwards;
 }
 
 #image_Section {
-  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
+  animation: 200ms ease-in-out 1000ms 1 slideInFromBottom backwards;
 }
 
 #agent_Tag {

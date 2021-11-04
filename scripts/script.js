@@ -55,5 +55,5 @@ function agent_Change(value) {
 
     }
 
-    classremoval = setTimeout(classDelete, 1000);
+    classremoval = setTimeout(classDelete, 1500);
 }
