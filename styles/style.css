@@ -549,6 +549,11 @@ h2 {
   animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
 
+.animation{
+  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
+}
+
+
 
 @keyframes slideInFromBottom {
   0% {
